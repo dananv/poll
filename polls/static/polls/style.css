@@ -1,25 +1,22 @@
 body {
 	background: white url("images/background.gif");
-	height: auto;
-	min-height: 100%;
+	height: 100%;
 
 	color: white;
 	width: auto;
 	margin: 0;
-    padding: 25px;
-    border: 80px solid #E0E0E0;
-    border-top: none;
-    border-bottom: none;  
+	padding: 25px;
+	border: 80px solid #E0E0E0;
+	border-top: none;
+	border-bottom: none;  
 }
 
 
 ul#bar  {
 	list-style-type: none;
 	margin-left: auto;
-    margin-right: auto;
-    text-align: center
-	
-	float: left;
+	margin-right: auto;
+	text-align: center;
 	display: block;
 	
 	font-weight: bold;
@@ -31,10 +28,10 @@ ul#bar  {
 	text-transform: uppercase;
 }
 
-li a {
+a {
 	color: white;
 }
 
-a href {
-	color: green;
+a:hover {
+	color: blue;
 }
