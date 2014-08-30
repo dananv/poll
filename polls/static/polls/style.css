@@ -1,31 +1,22 @@
 body {
 	background: white url("images/background.gif");
-	height: 100%;
+	color: white; font-size: 18px;
 
-	color: white;
+
+	/*
+	height: 100%;
 	width: auto;
 	margin: 0;
 	padding: 25px;
-	border: 80px solid #E0E0E0;
+	
+	border: 100px #E0E0E0;
 	border-top: none;
 	border-bottom: none;  
+	*/
 }
 
-
-ul#bar  {
-	list-style-type: none;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	display: block;
-	
-	font-weight: bold;
-	color: #FFFFFF;
-	background-color: #666699;
-	text-align: left;
-	padding: 10px;
-	text-decoration: none;
-	text-transform: uppercase;
+h1 {
+	font-size: 20px;
 }
 
 a {
@@ -34,4 +25,34 @@ a {
 
 a:hover {
 	color: blue;
+}
+   
+#container {
+ 	width:auto;
+	margin:auto 150px;
+	background-color:black;
+}
+
+#header {
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #666699;
+	text-align: left;
+	padding: 5px 5px 5px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#header ul {
+	list-style-type: none;
+}
+
+#content {
+	height:800px;
+	width:620px;
+	padding-left: 20px;
 }
