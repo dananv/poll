@@ -4,7 +4,11 @@ from django.utils import timezone
 
 # Create your models here.
 class Poll(models.Model):
-	"""Practicing how to make a poll in Django."""
+	"""
+	Making a poll interface in the Django admin, through calling 
+	models.Model. Defines a question, publication date and whether it 
+	was pubished recently. 
+	"""
 
 	# Adding a custom method.
 	def was_published_recently(self):
@@ -24,6 +28,10 @@ class Poll(models.Model):
 
 
 class Choice(models.Model):
+	"""
+	Describes the choices for a poll and keeps track of the number of 
+	votes. 
+	"""
 
 	# Adding an unicode method to Choice.
 	def __str__(self):
